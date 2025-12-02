@@ -16,36 +16,10 @@
 
 ```
 ├── Limhwanseok
-│   ├── augmentation.ipynb (리더보드 제출 코드)
+│   ├── augmentation.ipynb 
 │   ├── image_vision.ipynb
-│   └── swin_large_augmentation.ipynb (리더보드 제출 코드)
-├── parkjunsu
-│   ├── baseline.ipynb
-│   ├── baseline_v1.py
-    ├── baseline_vit_.ipynb
-    ├── classcification.ipynb
-    ├── classcification_V2.ipynb
-    ├── frist_classification.py
-    ├── object_dec_and_aug.ipynb
-    ├── object_dec_and_aug_v2.ipynb  
-│   └── vit_augmented_baseline.ipynb
-└── soneunhye
-    ├── 01_1st_EDA.ipynb
-    ├── 01_1st_EDA_based_0.6038_scored.ipynb
-    ├── 02_1st_EDA_based_0.5901_scored.ipynb
-    ├── 02_2nd_EDA.ipynb
-    ├── 03_1st_EDA_based_0.6261_scored.ipynb
-    ├── 04_1st_EDA_based__0.6483_scored.ipynb
-    ├── 05_2nd_EDA_based_0.6113_scored.ipynb
-    ├── 06_2nd_EDA_based_0.4992_scored.ipynb
-    ├── 07_2nd_EDA_based_0.6041_scored.ipynb
-    ├── 08_2nd_EDA_0.6669_scored.ipynb
-    ├── 09_no_submission.ipynb
-    ├── 10_2nd_EDA_0.6827_scored.ipynb
-    ├── 11_2nd_EDA_0.6670_scored.ipynb
-    ├── 12_2nd_EDA_0.7402_scored.ipynb
-    ├── v1_object_dec_and_aug_v2.ipynb 
-    └── v2_object_dec_and_aug_v2.ipynb    
+│   └── swin_large_augmentation.ipynb 
+   
 ```
 
 ## 3. Data descrption
