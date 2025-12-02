@@ -1,20 +1,131 @@
-# Documents_Classification
+# CV 경진대회                  
+
+## 0. Overview
+### Environment
+- 주피터 노트북
+- Upstage GPU
+
+### Requirements
+- GPU
+
+## 1. Competiton Info
+
+### Overview
+
+- 의료·금융·보험·물류 등 다양한 산업에서 대량의 문서 이미지를 자동으로 식별, 처리하기 위해 활용되는 CV 분야의 핵심 태스크인 문서 타입 이미지 분류(Image Classification) 문제를 다룹니다.
+
+### Timeline
+
+2025년 10월 31일 부터 11월 12일까지.
+
+## 2. Components
+
+### Directory
+
+- 팀원별 폴더 만들어서 업로드
+
 
 ```
-📁 document-classification/
-│
-├── README.md            ← 핵심 설명 (아래 템플릿 제공)
-├── requirements.txt
-├── data/ (비워두고 구조만 설명)
-├── src/
-│   ├── dataset.py
-│   ├── offline_augmentation.py
-│   ├── train.py
-│   ├── inference.py
-│   ├── yolo_rule.py
-│   └── utils.py
-├── output/
-│   └── sample_submission.csv
-└── models/
-    └── best_model.pth (업로드 불가하면 지우고 링크로 대체)
+├── Limhwanseok
+│   ├── augmentation.ipynb (리더보드 제출 코드)
+│   ├── image_vision.ipynb
+│   └── swin_large_augmentation.ipynb (리더보드 제출 코드)
+├── parkjunsu
+│   ├── baseline.ipynb
+│   ├── baseline_v1.py
+    ├── baseline_vit_.ipynb
+    ├── classcification.ipynb
+    ├── classcification_V2.ipynb
+    ├── frist_classification.py
+    ├── object_dec_and_aug.ipynb
+    ├── object_dec_and_aug_v2.ipynb  
+│   └── vit_augmented_baseline.ipynb
+└── soneunhye
+    ├── 01_1st_EDA.ipynb
+    ├── 01_1st_EDA_based_0.6038_scored.ipynb
+    ├── 02_1st_EDA_based_0.5901_scored.ipynb
+    ├── 02_2nd_EDA.ipynb
+    ├── 03_1st_EDA_based_0.6261_scored.ipynb
+    ├── 04_1st_EDA_based__0.6483_scored.ipynb
+    ├── 05_2nd_EDA_based_0.6113_scored.ipynb
+    ├── 06_2nd_EDA_based_0.4992_scored.ipynb
+    ├── 07_2nd_EDA_based_0.6041_scored.ipynb
+    ├── 08_2nd_EDA_0.6669_scored.ipynb
+    ├── 09_no_submission.ipynb
+    ├── 10_2nd_EDA_0.6827_scored.ipynb
+    ├── 11_2nd_EDA_0.6670_scored.ipynb
+    ├── 12_2nd_EDA_0.7402_scored.ipynb
+    ├── v1_object_dec_and_aug_v2.ipynb 
+    └── v2_object_dec_and_aug_v2.ipynb    
 ```
+
+## 3. Data descrption
+
+### Dataset overview
+전반적인 데이터셋의 이미지들 확인 
+FiftyOne 이용
+다른 클래스의 이미지와의 레이아웃 키워드 차이 확인
+
+<img width="928" height="361" alt="image" src="https://github.com/user-attachments/assets/285f3bf2-34a4-4e63-b7ff-79ca431deebb" />
+
+
+
+
+### EDA
+
+train datasets 이미지 레이아웃 확인 
+객체 이미지 + 문서이미지
+대부분 캡쳐본으로 깨끗하고 노이즈가 많이 없는 상태
+
+test datasets 이미지 레이아웃 확인
+회전, 반전, 흐림, 이미지 혼합(섞임), 잘림 등 다양한 유형의 노이즈 및 변형 포함
+
+<img width="1033" height="264" alt="image" src="https://github.com/user-attachments/assets/496940bc-3746-4f05-8adf-4763daafb983" />
+
+
+## 4. Modeling
+
+### Model descrition
+
+- ViT (Swin Large, 384)
+  
+
+### Modeling Process
+
+
+<img width="1222" height="412" alt="image" src="https://github.com/user-attachments/assets/3edeeb48-64c1-49a3-95a6-72384e785882" />
+
+<img width="1229" height="548" alt="image" src="https://github.com/user-attachments/assets/53ff7ac9-d956-4b17-9011-ec17ef36e74f" />
+
+<img width="1253" height="546" alt="image" src="https://github.com/user-attachments/assets/07f6d9ad-d28f-4ed3-bbd6-b9458f285878" />
+
+<img width="1180" height="541" alt="image" src="https://github.com/user-attachments/assets/bf103408-6895-4e71-a97a-ebab3a728ace" />
+
+
+
+## 5. Result
+
+### Leader Board
+
+<img width="817" height="607" alt="image" src="https://github.com/user-attachments/assets/3bb173d1-3456-40fb-aded-d7c4a3f343fa" />
+
+
+### Presentation
+
+- https://docs.google.com/presentation/d/1AdBPM1qlEKxrxkfW6FrzrgiNRj-qfuXR/edit?pli=1&slide=id.g399552807a2_2_70#slide=id.g399552807a2_2_70
+
+## etc
+
+### Meeting Log
+
+<img width="720" height="1085" alt="image" src="https://github.com/user-attachments/assets/35914120-c137-44d9-93ca-c27a22ce2ad3" />
+
+<img width="433" height="241" alt="image" src="https://github.com/user-attachments/assets/6a3946c0-ee8c-4f30-85fc-c595bbbb01e6" />
+
+<img width="1120" height="630" alt="image" src="https://github.com/user-attachments/assets/1fa9eb8d-ce49-4af5-8812-cb7036e4b142" />
+<img width="1190" height="517" alt="image" src="https://github.com/user-attachments/assets/e0cbf824-b846-4d34-9ad2-476cf6c3975f" />
+
+
+
+
+
