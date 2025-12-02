@@ -68,11 +68,6 @@ test datasets 이미지 레이아웃 확인
 
 ## 5. Result
 
-### Leader Board
-
-<img width="817" height="607" alt="image" src="https://github.com/user-attachments/assets/3bb173d1-3456-40fb-aded-d7c4a3f343fa" />
-
-
 ### Presentation
 
 - https://docs.google.com/presentation/d/1AdBPM1qlEKxrxkfW6FrzrgiNRj-qfuXR/edit?pli=1&slide=id.g399552807a2_2_70#slide=id.g399552807a2_2_70
