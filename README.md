@@ -1,13 +1,5 @@
 # CV 경진대회                  
 
-## 0. Overview
-### Environment
-- 주피터 노트북
-- Upstage GPU
-
-### Requirements
-- GPU
-
 ## 1. Competiton Info
 
 ### Overview
