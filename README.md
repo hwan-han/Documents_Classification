@@ -11,8 +11,6 @@
 
 ### Directory
 
-- 팀원별 폴더 만들어서 업로드
-
 
 ```
 ├── Limhwanseok
