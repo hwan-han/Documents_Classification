@@ -70,16 +70,9 @@ test datasets 이미지 레이아웃 확인
 
 - https://docs.google.com/presentation/d/1AdBPM1qlEKxrxkfW6FrzrgiNRj-qfuXR/edit?pli=1&slide=id.g399552807a2_2_70#slide=id.g399552807a2_2_70
 
-## etc
 
-### Meeting Log
+<img width="898" height="116" alt="image" src="https://github.com/user-attachments/assets/a5b92de6-fa7f-435c-9068-430838b6a3c6" />
 
-<img width="720" height="1085" alt="image" src="https://github.com/user-attachments/assets/35914120-c137-44d9-93ca-c27a22ce2ad3" />
-
-
-<img width="1120" height="630" alt="image" src="https://github.com/user-attachments/assets/1fa9eb8d-ce49-4af5-8812-cb7036e4b142" />
-
-<img width="898" height="194" alt="image" src="https://github.com/user-attachments/assets/fa63e0a2-969a-4a0b-b78c-8bb1af3813dc" />
 
 
 
